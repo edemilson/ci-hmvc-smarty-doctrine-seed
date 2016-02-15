@@ -1,9 +1,15 @@
 {
-	"description": "My seed to started projects using codeigniter, hmvc, smarty and doctrine!",
-	"name": "edemilson/ci-hmvc-smarty-doctrine-seed",
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
 	"type": "project",
-	"homepage": "https://github.com/edemilson/ci-hmvc-smarty-doctrine-seed",
+	"homepage": "https://codeigniter.com",
 	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"irc": "irc://irc.freenode.net/codeigniter",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
 	"require": {
 		"php": ">=5.2.4"
 	},
