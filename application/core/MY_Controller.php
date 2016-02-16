@@ -2,8 +2,11 @@
 
 class MY_Controller extends MX_Controller
 {
+
     function __construct()
     {
         parent::__construct();
+        $this->ci_smarty->assign('currenturl', $this->uri->uri_string());
+
     }
 }
